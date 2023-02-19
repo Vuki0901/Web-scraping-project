@@ -1,17 +1,11 @@
-﻿using System;
-using System.Net.Http;
-using System.Linq;
-using HtmlAgilityPack;
-using System.Diagnostics;
-using System.Xml.Linq;
-using System.Drawing;
-using System.Collections.Generic;
+﻿using HtmlAgilityPack;
 
 static class Program
 {
 
     static void Main(string[] args)
     {
+        Console.Write("Pretraga proizvoda na sportvision.hr web trgovini: ");
         var input = Console.ReadLine()!;
 
         string url = "https://www.sportvision.hr/";

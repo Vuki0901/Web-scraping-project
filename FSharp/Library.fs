@@ -98,6 +98,7 @@ module Scraper =
             printfn "%s" "\n"
 
     let main() =
+        printf "Pretraga proizvoda na sportvision.hr web trgovini: "
         let input = Console.ReadLine()
 
         let mutable url: string = "https://www.sportvision.hr/"

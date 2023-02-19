@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharp", "FSharp.fsproj", "{3A60A3AB-3863-4938-9AC0-845849A8BC70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp", "..\CSharp\CSharp.csproj", "{A35BD9F9-8410-4373-B8B1-725B38FF9D9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp", "..\CSharp\CSharp.csproj", "{A35BD9F9-8410-4373-B8B1-725B38FF9D9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
