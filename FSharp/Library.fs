@@ -91,10 +91,10 @@ module Scraper =
 
     let printProducts(products: Product[], n: int) =
         for i in 0..n-1 do
-            printfn "%s" products.[i].Name
-            printfn "%f" products.[i].Price
-            printfn "%d" products.[i].Discount
-            printfn "%s" products.[i].Url
+            printfn "%s" ("Ime: " + products.[i].Name)
+            printfn "%s" ("Cijena: " + string(products.[i].Price) + "e")
+            printfn "%s" ("Popust: " + string(products.[i].Discount) + "%")
+            printfn "%s" ("URL: " + products.[i].Url)
             printfn "%s" "\n"
 
     let main() =
