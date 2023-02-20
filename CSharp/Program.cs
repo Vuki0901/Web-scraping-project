@@ -23,7 +23,9 @@ static class Program
         try
         {
             var paginationTag = doc.DocumentNode.SelectNodes("//ul[contains(@class, 'pagination')]")[0];
-            var numberTag = paginationTag.Descendants().Single(node => node.Name == "li" && node.Attributes.Any(attr => attr.Name == "class" && attr.Value == "number"));
+            var numberTag = paginationTag.Descendants()
+                .Single(node => node.Name == "li" && 
+                node.Attributes.Any(attr => attr.Name == "class" && attr.Value == "number"));
             int.TryParse(numberTag.InnerText, out numberOfPages);
         }
         catch (Exception ex)
